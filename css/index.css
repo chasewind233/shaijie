@@ -1,0 +1,222 @@
+/*
+* @Author: 杰仔
+* @Date:   2018-05-21 09:27:54
+* @Last Modified by:   杰仔
+* @Last Modified time: 2018-05-23 14:32:18
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none; 
+}
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+ }
+.logo{
+	text-align: center;
+	height: 125px;
+}
+.logo{
+	margin-top: 30px; /* 也可以在上面加上padding,height就改成95 */
+}
+.nav{
+	width: 730px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	float: left;
+	padding: 0 30px;
+	line-height: 45px;
+	height: 45px;
+	background: url('../photos/2.png') no-repeat right center;
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+	
+}
+.nav li:last-child{
+	background: none ;
+}
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url('../photos/images/中智首页_02.gif') no-repeat center center;
+
+}
+.service{
+	text-align: center;
+	margin-top: 63px;
+}
+.eight{
+	height: 553px;
+	width: 1167px;
+	
+	margin-left: 360px;
+	margin-top: 70px;
+
+
+}
+.one{
+	width: 265px;
+	height: 352px;
+	display: inline-block;/* 让图片显示在框架内的语句*/
+	float: left;
+				
+}
+.solution{
+	margin: 0 auto;
+
+	width: 1560px;
+	height: 712px;
+	margin-left: 100px;
+	margin-top: 200px;
+	background-image: url('../photos/3.png')
+}
+.solution button{
+	width: 230px;
+	height: 50px;
+	border: 1px solid #fff;
+	background: none;
+	border-radius: 25px; 
+	margin-top: 100px;
+ 
+}
+
+
+.four{height: 230px;
+	  width: 300px;
+	  padding-top: 20px;
+	  display: inline-block;
+	  float: left;
+}
+.information{
+	
+	width: 1560px;
+	height: 1015px;
+	/* background-color: red; */
+	margin-left: 100px;
+	
+}
+.btext{
+	width: 520px;
+	height: 260px;
+	display: inline-block;
+	float: left;
+	padding-left: 76px;
+	text-align: left ;
+	padding-top: 86px; 
+}
+.buton{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #003399;
+	border-radius: 25px;
+	margin-top: 34px;
+	background: none;
+
+}
+.ctext{
+	width: 580px;
+	height: 280px;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 76px;
+	text-align: left ;
+}
+.dtext{
+	width: 580px;
+	height: 280px;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 0px;
+	text-align: left ;
+}
+.subbottom{
+	width: 1500px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.subbottom .pattern{
+	height: 40px;
+	margin-top: 30px;
+	width: 250px;
+	background-color: #ffffff;
+	text-align: left;
+	float: left;
+	padding-left: 70px;
+	padding-right: 50px;
+	border-right: 2px solid;
+}
+.tbottom{
+	margin: 0 auto;
+	height: 385px;
+	width: 1650px;
+	background: #323232;
+	text-align: center;
+}
+.b001{
+	width: 130px;
+	height: 170px;
+	float: left;
+	padding-top: 72px;
+	padding-left: 60px;
+}
+.tbottom .b001:first-child{
+	padding-left: 140px;
+}
+.b002{
+	width: 261px;
+	height: 155px;
+	float: left;
+	padding-top: 72px;
+}
+.b002sub{
+	height: 140px;
+	width: 90px;
+	float: right;
+	line-height: 25px;
+	border-right: 2px solid;
+}
+.b003{
+	width: 230px;
+	height: 141px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 72px;
+	text-align: left;
+}
+.b004{
+	width: 1650px;
+	height: 100px;
+	padding-bottom: 170px;
+	border: 1px solid white;
+}
+.b005 {
+	padding-top: 38px;
+	padding-left: 411px;
+}
+.b005 li a{
+	padding-left: 13px;
+	padding-right: 13px;
+	float: left;
+	height: 22px;
+	border-right: 3px solid #1e50ae;
+	
+}
+.b006{
+	float: right;
+	padding-top: 25px;
+	padding-right: 640px;
+}
